@@ -1,0 +1,32 @@
+.main-bg {
+  background-color: #f1f5f8;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #007bff;
+  border-radius: 8px;
+  padding: 8px;
+  color: #ffffff;
+  border-width: 0px;
+}
+span {
+  color: #c20a72;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.para {
+  font-size: 15px;
+}
