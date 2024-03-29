@@ -4,4 +4,4 @@
 - [Project 3:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/ClickCounter) Click Counter -       [Demo](https://tjmanojcounter.ccbp.tech/)
 - [Project 4:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/Speedometer) Speedometer -          [Demo](https://tjmanojspeed.ccbp.tech/)
 - [Project 5:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/FruitsCounter) Fruits Counter -     [Demo](https://tjmanojfruits.ccbp.tech/)
-- [Project 6:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/ConditionalRendering1) Fruits Counter -     [Demo](https://tjmanojcr1.ccbp.tech/)
+- [Project 6:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/ConditionalRendering1) Subscribe Rendering -     [Demo](https://tjmanojcr1.ccbp.tech/)
