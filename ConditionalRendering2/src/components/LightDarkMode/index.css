@@ -1,0 +1,45 @@
+* {
+  font-family: 'Roboto';
+}
+
+.main-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.main-bg {
+  background-color: black;
+  margin: 15px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  border: #000000 solid 1px;
+
+}
+
+
+
+.dark-color {
+  color: #000000;
+}
+
+.white-color {
+  color: #ffffff;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+.dark-bg {
+  background-color: #000000;
+}
