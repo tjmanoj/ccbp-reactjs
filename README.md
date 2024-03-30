@@ -6,3 +6,4 @@
 - [Project 5:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/FruitsCounter) Fruits Counter -     [Demo](https://tjmanojfruits.ccbp.tech/)
 - [Project 6:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/ConditionalRendering1) Subscribe Rendering -     [Demo](https://tjmanojcr1.ccbp.tech/)
 - [Project 7:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/ConditionalRendering2) DarkMode LightMode -     [Demo](https://tjcolormodes.ccbp.tech/)
+- [Project 8:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/ShowHideApp) ShowHide App -     [Demo](https://tjshowhideapp.ccbp.tech/)
