@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.main-bg {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 70px;
+  }
+}
+
+.card {
+  background-color: #fddddb;
+  width: 230px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 320px;
+    height: 170px;
+  }
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  width: 180px;
+  color: #fc63a7;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  button {
+    font-size: 20px;
+    width: 250px;
+  }
+}
+
+.name {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .outer-container {
+    flex-direction: row;
+  }
+  .name1 {
+    margin-right: 60px;
+  }
+}
