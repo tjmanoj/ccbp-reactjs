@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.main-bg {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-container {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  height: 50%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 35px;
+  }
+  .count-container {
+    margin: 25px;
+    width: 550px;
+    height: 550px;
+  }
+  button {
+    font-size: 20px;
+  }
+}
