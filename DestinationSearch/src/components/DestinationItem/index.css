@@ -1,0 +1,13 @@
+.image {
+  height: 150px;
+  width: 200px;
+}
+
+.para {
+  width: 200px;
+}
+
+.cardItem {
+  margin-left: 20px;
+  list-style-type: none;
+}

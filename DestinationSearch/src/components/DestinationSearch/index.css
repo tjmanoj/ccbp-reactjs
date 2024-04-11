@@ -1,0 +1,43 @@
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.main-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchbox {
+  width: 200px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+.search {
+  border-width: 0px;
+  background-color: #f1f5f9;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .main-bg {
+    align-items: start;
+  }
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+}
