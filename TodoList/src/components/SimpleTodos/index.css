@@ -1,0 +1,32 @@
+.todo-app {
+  background-color: #ffc2a0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .todo-app {
+    height: 100vh;
+    padding-bottom: 0px;
+  }
+}
+
+.heading {
+  color: #ff8542;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.todo-card {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
