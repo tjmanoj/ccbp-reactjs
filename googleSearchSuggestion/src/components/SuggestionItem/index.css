@@ -1,0 +1,10 @@
+.arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  height: 15px;
+  width: 15px;
+}
