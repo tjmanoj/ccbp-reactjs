@@ -1,0 +1,19 @@
+
+.gray-blur {
+  opacity: 0.5;
+}
+.thumbnail-resize {
+  height: 50px;
+  width: 50px;
+}
+button {
+  background-color: transparent;
+  border: 0px;
+  margin-right: 5px;
+}
+@media screen and (min-width: 576px) {
+  .thumbnail-resize {
+  height: 100px;
+  width: 100px;
+}
+}
