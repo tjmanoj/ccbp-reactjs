@@ -17,4 +17,6 @@
 - [Project 16:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/googleSearchSuggestion) Google Search Suggestion -     [Demo](https://tjgooglesearch.ccbp.tech/)
 - [Project 17:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/LettersCalculator) Letters Count -     [Demo](https://tjlettercount.ccbp.tech/)
 - [Project 18:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/browserHistory) Browse History -     [Demo](https://tjhistory.ccbp.tech/)
-- [Project 19:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/FeedbackApp) Feedback APp -     [Demo](https://tjfeedback.ccbp.tech/)
+- [Project 19:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/FeedbackApp) Feedback App -     [Demo](https://tjfeedback.ccbp.tech/)
+- [Project 20:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/galleryApp) Gallery App -     [Demo](https://tjgalleryapp.ccbp.tech/)
+- [Project 21:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/CapitalsApp) Capitals App -     [Demo](https://tjcapitalapp.ccbp.tech/)
