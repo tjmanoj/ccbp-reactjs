@@ -1,0 +1,17 @@
+.item {
+  font-weight: 500;
+  color: #7b8794;
+  border-bottom: solid 2px #7b8794;
+  padding: 5px;
+}
+
+.selected-tab {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
