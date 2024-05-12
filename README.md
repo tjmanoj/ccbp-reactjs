@@ -20,4 +20,5 @@
 - [Project 19:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/FeedbackApp) Feedback App -     [Demo](https://tjfeedback.ccbp.tech/)
 - [Project 20:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/galleryApp) Gallery App -     [Demo](https://tjgalleryapp.ccbp.tech/)
 - [Project 21:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/CapitalsApp) Capitals App -     [Demo](https://tjcapitalapp.ccbp.tech/)
-- [Project 22:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/appStore) Capitals App -     [Demo](https://tjappstore.ccbp.tech/)
+- [Project 22:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/appStore) App Store -     [Demo](https://tjappstore.ccbp.tech/)
+- [Project 23:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/CoinToss) Coin Toss -     [Demo](https://tjcointoss.ccbp.tech/)
