@@ -22,3 +22,4 @@
 - [Project 21:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/CapitalsApp) Capitals App -     [Demo](https://tjcapitalapp.ccbp.tech/)
 - [Project 22:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/appStore) App Store -     [Demo](https://tjappstore.ccbp.tech/)
 - [Project 23:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/CoinToss) Coin Toss -     [Demo](https://tjcointoss.ccbp.tech/)
+- [Project 24:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/reviewsApp) Reviews App -     [Demo](https://tjreviews.ccbp.tech/)
