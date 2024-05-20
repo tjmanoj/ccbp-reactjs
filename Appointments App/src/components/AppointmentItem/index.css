@@ -1,0 +1,35 @@
+.heading {
+  font-size: 20px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.appointment-item {
+  border: #b5b7c4 1px solid;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-item {
+    margin-right: 20px;
+    width:250px;
+  }
+}
+
+.date {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.appointment-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.starred-button {
+  background-color: transparent;
+  border: none;
+}
