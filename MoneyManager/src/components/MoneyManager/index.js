@@ -35,9 +35,7 @@ class MoneyManager extends Component {
   }
 
   updateType = event => {
-    let a = event.target.value
-    a = a[0] + a.slice(1).toLowerCase()
-    this.setState({type: a})
+    this.setState({type: event.target.value})
   }
 
   updateAppointment = event => {
@@ -53,7 +51,9 @@ class MoneyManager extends Component {
     let incomeAmt = 0
     let expenseAmt = 0
     let balanceAmt = 0
-    if (type === 'Income') {
+    let a = type
+    a = a[0] + a.slice(1).toLowerCase()
+    if (a === 'Income') {
       incomeAmt = parseInt(amount)
       balanceAmt = parseInt(amount)
     } else {
@@ -78,7 +78,9 @@ class MoneyManager extends Component {
     let incomeAMT = 0
     let expenseAMT = 0
     let balanceAMT = 0
-    if (type === 'Expenses') {
+    let a = type
+    a = a[0] + a.slice(1).toLowerCase()
+    if (a === 'Expenses') {
       expenseAMT = parseInt(amount)
       balanceAMT = parseInt(amount)
     } else {
@@ -107,8 +109,8 @@ class MoneyManager extends Component {
           </p>
         </div>
         <MoneyDetails income={income} expenses={expenses} balance={balance} />
-        <div>
-          <div className="transaction">
+        <div className="transaction-history-container">
+          <div className="transaction transaction-form">
             <form onSubmit={this.updateAppointment}>
               <h1 className="heading">Add Transaction</h1>
               <label htmlFor="title" className="label">
@@ -146,15 +148,14 @@ class MoneyManager extends Component {
               <br />
               <select
                 id="type"
-                name="type"
                 className="inputBox"
                 onChange={this.updateType}
                 value={type}
               >
-                <option value={transactionTypeOptions[0].optionId}>
+                <option name="type" value={transactionTypeOptions[0].optionId}>
                   {transactionTypeOptions[0].displayText}
                 </option>
-                <option value={transactionTypeOptions[1].optionId}>
+                <option name="type" value={transactionTypeOptions[1].optionId}>
                   {transactionTypeOptions[1].displayText}
                 </option>
               </select>
@@ -164,24 +165,23 @@ class MoneyManager extends Component {
               </button>
             </form>
           </div>
-          <div className="transaction">
+          <div className="transaction transaction-history">
             <h1 className="heading">History</h1>
-            <div className="headings-container">
-              <div className="history-headings">
+
+            <ul className="history-items">
+              <li className="history-headings">
                 <p className="title-history">Title</p>
                 <p className="amount-history">Amount</p>
                 <p className="title-type">Type</p>
-              </div>
-              <ul className="history-items">
-                {transations.map(each => (
-                  <TransactionItem
-                    details={each}
-                    updateMoney={this.updateMoney}
-                    key={each.id}
-                  />
-                ))}
-              </ul>
-            </div>
+              </li>
+              {transations.map(each => (
+                <TransactionItem
+                  details={each}
+                  updateMoney={this.updateMoney}
+                  key={each.id}
+                />
+              ))}
+            </ul>
           </div>
         </div>
       </div>
