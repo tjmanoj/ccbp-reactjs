@@ -12,6 +12,19 @@
   width: 340px;
   text-align: center;
   border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-container {
+    width: 80vw;
+    height: 150px;
+  }
+  .transaction-history-container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+  }
 }
 
 .description {
@@ -30,6 +43,12 @@
   width: 280px;
   outline: none;
   padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .inputBox {
+    width: 320px;
+  }
 }
 
 .label {
@@ -64,9 +83,19 @@
   padding: 0px;
 }
 
+@media screen and (min-width: 768px) {
+  .transaction-history {
+    width: 50%;
+  }
+  .transaction-form {
+    width: 35%;
+  }
+}
+
 .history-headings {
   display: flex;
   border: 1px solid #d7dfe9;
+  justify-content: flex-start;
 }
 
 .title-history {
@@ -75,10 +104,10 @@
 }
 
 .amount-history {
-  padding-right: 50px;
+  padding-right: 100px;
 }
 
-.headings-container{
+.headings-container {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
