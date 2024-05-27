@@ -25,4 +25,4 @@
 - [Project 24:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/reviewsApp) Reviews App -     [Demo](https://tjreviews.ccbp.tech/)
 - [Project 25:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/commentsApp) Comments App -     [Demo](https://tjcomments.ccbp.tech/)
 - [Project 26:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/Appointments%20App) Appointments App -     [Demo](https://tjappointments.ccbp.tech/)
-- [Project 27:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/) Money Manager -     [Demo](https://tjmoneybank.ccbp.tech/)
+- [Project 27:](https://github.com/tjmanoj/ccbp-reactjs/tree/main/MoneyManager) Money Manager -     [Demo](https://tjmoneybank.ccbp.tech/)
